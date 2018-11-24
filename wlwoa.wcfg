@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mb_system_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mb_system_wrapper_tb" />
+            <top_module name="mdm_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="22152000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/rs232_uart_rxd">
+      <obj_property name="ElementShortName">rs232_uart_rxd</obj_property>
+      <obj_property name="ObjectShortName">rs232_uart_rxd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/rs232_uart_txd">
+      <obj_property name="ElementShortName">rs232_uart_txd</obj_property>
+      <obj_property name="ObjectShortName">rs232_uart_txd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/sys_diff_clock_clk_n">
+      <obj_property name="ElementShortName">sys_diff_clock_clk_n</obj_property>
+      <obj_property name="ObjectShortName">sys_diff_clock_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/sys_diff_clock_clk_p">
+      <obj_property name="ElementShortName">sys_diff_clock_clk_p</obj_property>
+      <obj_property name="ObjectShortName">sys_diff_clock_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/mb_system_wrapper_tb/clk_n_period">
+      <obj_property name="ElementShortName">clk_n_period</obj_property>
+      <obj_property name="ObjectShortName">clk_n_period</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/mb_system_wrapper_tb/clk_p_period">
+      <obj_property name="ElementShortName">clk_p_period</obj_property>
+      <obj_property name="ObjectShortName">clk_p_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">pulse ip signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/pulse_0/mb_reset">
+      <obj_property name="ElementShortName">mb_reset</obj_property>
+      <obj_property name="ObjectShortName">mb_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/pulse_0/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/pulse_0/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/pulse_0/inp">
+      <obj_property name="ElementShortName">inp</obj_property>
+      <obj_property name="ObjectShortName">inp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/pulse_0/outp">
+      <obj_property name="ElementShortName">outp</obj_property>
+      <obj_property name="ObjectShortName">outp</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider31" type="divider">
+      <obj_property name="label">trace and reset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/NLW_microblaze_0_Trace_Valid_Instr_UNCONNECTED">
+      <obj_property name="ElementShortName">NLW_microblaze_0_Trace_Valid_Instr_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_microblaze_0_Trace_Valid_Instr_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/NLW_microblaze_0_Trace_Instruction_UNCONNECTED">
+      <obj_property name="ElementShortName">NLW_microblaze_0_Trace_Instruction_UNCONNECTED[0:31]</obj_property>
+      <obj_property name="ObjectShortName">NLW_microblaze_0_Trace_Instruction_UNCONNECTED[0:31]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/NLW_microblaze_0_Trace_PC_UNCONNECTED">
+      <obj_property name="ElementShortName">NLW_microblaze_0_Trace_PC_UNCONNECTED[0:31]</obj_property>
+      <obj_property name="ObjectShortName">NLW_microblaze_0_Trace_PC_UNCONNECTED[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider53" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/mb_system_wrapper_tb/uut/mb_system_i/axi_gpio_0/U0/gpio_core_1/GPIO_IO_O">
+      <obj_property name="ElementShortName">GPIO_IO_O[0:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_IO_O[0:0]</obj_property>
+   </wvobject>
+</wave_config>
