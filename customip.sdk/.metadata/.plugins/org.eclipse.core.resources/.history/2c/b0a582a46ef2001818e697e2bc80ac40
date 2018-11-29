@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include "platform.h"
+
+
+#include "xparameters.h"
+
+#include "xil_io.h"
+#include "mb_interface.h"
+
+//void print(char *str);
+
+//void soft_reset();
+
+int main()
+{
+	int a,b;
+	a=5;
+	//b=2;
+    init_platform();
+    //Xil_Out32(XPAR_GPIO_0_BASEADDR, 0X2);
+    b= Xil_In32(XPAR_GPIO2_0_BASEADDR);
+    //Xil_Out32(XPAR_GPIO_0_BASEADDR, 0X4);
+    //a=a*100;
+    //Xil_Out32(XPAR_GPIO_0_BASEADDR + 4, 0X8);
+    //print("Hello World\n\r");
+    //Xil_Out32(XPAR_GPIO_0_BASEADDR, 0X2);
+    Xil_Out32(XPAR_GPIO_0_BASEADDR,b);
+
+    //soft_reset();
+
+    cleanup_platform();
+    return 0;
+}

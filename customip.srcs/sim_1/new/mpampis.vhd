@@ -9,6 +9,7 @@ architecture bench of mb_system_wrapper_tb is
 
   component mb_system_wrapper
     port (
+      --gpio_i : in STD_LOGIC_VECTOR ( 31 downto 0 );
       reset : in STD_LOGIC;
       rs232_uart_rxd : in STD_LOGIC;
       rs232_uart_txd : out STD_LOGIC;
@@ -16,7 +17,7 @@ architecture bench of mb_system_wrapper_tb is
       sys_diff_clock_clk_p : in STD_LOGIC
     );
   end component;
-
+  signal gpio_i : STD_LOGIC_VECTOR(31 downto 0);
   signal reset: STD_LOGIC;
   signal rs232_uart_rxd: STD_LOGIC;
   signal rs232_uart_txd: STD_LOGIC;
@@ -28,6 +29,7 @@ architecture bench of mb_system_wrapper_tb is
 begin
 
   uut: mb_system_wrapper port map ( reset                => reset,
+                                    --gpio_i               => gpio_i,
                                     rs232_uart_rxd       => rs232_uart_rxd,
                                     rs232_uart_txd       => rs232_uart_txd,
                                     sys_diff_clock_clk_n => sys_diff_clock_clk_n,
@@ -52,6 +54,7 @@ end process clk_p;
 alla: process
  begin
  reset<='0'; 
+ --gpio_i<="00000000000000000000000000000010";
  rs232_uart_txd<='1'; wait;
  end process alla;
 

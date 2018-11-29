@@ -167,7 +167,7 @@ BEGIN
       C_GPIO_WIDTH => 32,
       C_GPIO2_WIDTH => 32,
       C_ALL_INPUTS => 0,
-      C_ALL_INPUTS_2 => 0,
+      C_ALL_INPUTS_2 => 1,
       C_ALL_OUTPUTS => 1,
       C_ALL_OUTPUTS_2 => 0,
       C_INTERRUPT_PRESENT => 0,

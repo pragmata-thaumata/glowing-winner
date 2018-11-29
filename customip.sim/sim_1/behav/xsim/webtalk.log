@@ -2,13 +2,13 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Nov 21 11:52:44 2018
-# Process ID: 2504
-# Current directory: /opt/Xilinx/Vivado/2018.2/customip/customip.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /opt/Xilinx/Vivado/2018.2/customip/customip.sim/sim_1/behav/xsim/xsim.dir/mb_system_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /opt/Xilinx/Vivado/2018.2/customip/customip.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: /opt/Xilinx/Vivado/2018.2/customip/customip.sim/sim_1/behav/xsim/webtalk.jou
+# Start of session at: Thu Nov 29 16:34:58 2018
+# Process ID: 21459
+# Current directory: /opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim/xsim.dir/mb_system_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /opt/Xilinx/Vivado/2018.2/customip/customip.sim/sim_1/behav/xsim/xsim.dir/mb_system_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-webtalk_transmit: Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:06 . Memory (MB): peak = 302.867 ; gain = 0.000 ; free physical = 620 ; free virtual = 3862
-INFO: [Common 17-206] Exiting Webtalk at Wed Nov 21 11:52:50 2018...
+source /opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim/xsim.dir/mb_system_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/opt/Xilinx/SDK/2018.2/0projects/customip/customip.sim/sim_1/behav/xsim/xsim.dir/mb_system_wrapper_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Nov 29 16:35:02 2018. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 29 16:35:02 2018...

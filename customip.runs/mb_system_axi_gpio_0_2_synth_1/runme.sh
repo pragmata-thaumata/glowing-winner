@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/opt/Xilinx/Vivado/2018.2/customip/customip.runs/mb_system_axi_gpio_0_2_synth_1'
+HD_PWD='/opt/Xilinx/SDK/2018.2/0projects/customip/customip.runs/mb_system_axi_gpio_0_2_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

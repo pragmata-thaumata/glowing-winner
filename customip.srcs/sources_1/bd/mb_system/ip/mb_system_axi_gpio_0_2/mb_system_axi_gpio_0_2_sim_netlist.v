@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-// Date        : Wed Nov 21 17:43:04 2018
-// Host        : qnick-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
+// Date        : Tue Nov 27 20:10:56 2018
+// Host        : babis-System-Product-Name running 64-bit Ubuntu 16.04.5 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /opt/Xilinx/Vivado/2018.2/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_sim_netlist.v
+//               /opt/Xilinx/SDK/2018.2/0projects/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_sim_netlist.v
 // Design      : mb_system_axi_gpio_0_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -82,7 +82,7 @@ module mb_system_axi_gpio_0_2
   wire [31:0]NLW_U0_gpio_io_t_UNCONNECTED;
 
   (* C_ALL_INPUTS = "0" *) 
-  (* C_ALL_INPUTS_2 = "0" *) 
+  (* C_ALL_INPUTS_2 = "1" *) 
   (* C_ALL_OUTPUTS = "1" *) 
   (* C_ALL_OUTPUTS_2 = "0" *) 
   (* C_DOUT_DEFAULT = "0" *) 
@@ -1477,7 +1477,7 @@ module mb_system_axi_gpio_0_2_address_decoder
         .O(s_axi_wready));
 endmodule
 
-(* C_ALL_INPUTS = "0" *) (* C_ALL_INPUTS_2 = "0" *) (* C_ALL_OUTPUTS = "1" *) 
+(* C_ALL_INPUTS = "0" *) (* C_ALL_INPUTS_2 = "1" *) (* C_ALL_OUTPUTS = "1" *) 
 (* C_ALL_OUTPUTS_2 = "0" *) (* C_DOUT_DEFAULT = "0" *) (* C_DOUT_DEFAULT_2 = "0" *) 
 (* C_FAMILY = "artix7" *) (* C_GPIO2_WIDTH = "32" *) (* C_GPIO_WIDTH = "32" *) 
 (* C_INTERRUPT_PRESENT = "0" *) (* C_IS_DUAL = "0" *) (* C_S_AXI_ADDR_WIDTH = "9" *) 

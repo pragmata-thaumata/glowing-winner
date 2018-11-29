@@ -100,8 +100,6 @@ vcom -work axi_uart16550_v2_0_19 -64 -93 \
 
 vcom -work xil_defaultlib -64 -93 \
 "../../../bd/mb_system/ip/mb_system_axi_uart16550_0_1/sim/mb_system_axi_uart16550_0_1.vhd" \
-"../../../bd/mb_system/ipshared/6fc5/pulse.vhd" \
-"../../../bd/mb_system/ip/mb_system_pulse_0_2/sim/mb_system_pulse_0_2.vhd" \
 
 vlog -work generic_baseblocks_v2_1_0 -64 "+incdir+../../../../customip.srcs/sources_1/bd/mb_system/ipshared/b65a" "+incdir+../../../../customip.srcs/sources_1/bd/mb_system/ipshared/ec67/hdl" "+incdir+../../../../customip.srcs/sources_1/bd/mb_system/ipshared/b65a" "+incdir+../../../../customip.srcs/sources_1/bd/mb_system/ipshared/ec67/hdl" \
 "../../../../customip.srcs/sources_1/bd/mb_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
@@ -152,6 +150,9 @@ vlog -work xil_defaultlib -64 "+incdir+../../../../customip.srcs/sources_1/bd/mb
 
 vcom -work xil_defaultlib -64 -93 \
 "../../../bd/mb_system/sim/mb_system.vhd" \
+"../../../bd/mb_system/ip/mb_system_axi_gpio_1_0/sim/mb_system_axi_gpio_1_0.vhd" \
+"../../../bd/mb_system/ipshared/3c9b/atermon.vhd" \
+"../../../bd/mb_system/ip/mb_system_atermon_0_0/sim/mb_system_atermon_0_0.vhd" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

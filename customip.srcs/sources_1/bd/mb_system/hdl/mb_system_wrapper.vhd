@@ -1,8 +1,8 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Wed Nov 21 17:42:02 2018
---Host        : qnick-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
+--Date        : Thu Nov 29 16:31:59 2018
+--Host        : babis-System-Product-Name running 64-bit Ubuntu 16.04.5 LTS
 --Command     : generate_target mb_system_wrapper.bd
 --Design      : mb_system_wrapper
 --Purpose     : IP block netlist

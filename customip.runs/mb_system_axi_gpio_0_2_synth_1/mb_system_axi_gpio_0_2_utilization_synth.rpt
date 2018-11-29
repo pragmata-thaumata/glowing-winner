@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Wed Nov 21 17:43:04 2018
-| Host         : qnick-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
+| Date         : Tue Nov 27 20:10:55 2018
+| Host         : babis-System-Product-Name running 64-bit Ubuntu 16.04.5 LTS
 | Command      : report_utilization -file mb_system_axi_gpio_0_2_utilization_synth.rpt -pb mb_system_axi_gpio_0_2_utilization_synth.pb
 | Design       : mb_system_axi_gpio_0_2
 | Device       : 7a200tfbg676-2

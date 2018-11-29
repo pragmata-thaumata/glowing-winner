@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Nov 21 17:43:05 2018
--- Host        : qnick-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
+-- Date        : Tue Nov 27 20:10:56 2018
+-- Host        : babis-System-Product-Name running 64-bit Ubuntu 16.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim
---               /opt/Xilinx/Vivado/2018.2/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_sim_netlist.vhdl
+--               /opt/Xilinx/SDK/2018.2/0projects/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_sim_netlist.vhdl
 -- Design      : mb_system_axi_gpio_0_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -2810,7 +2810,7 @@ entity mb_system_axi_gpio_0_2_axi_gpio is
   attribute C_ALL_INPUTS : integer;
   attribute C_ALL_INPUTS of mb_system_axi_gpio_0_2_axi_gpio : entity is 0;
   attribute C_ALL_INPUTS_2 : integer;
-  attribute C_ALL_INPUTS_2 of mb_system_axi_gpio_0_2_axi_gpio : entity is 0;
+  attribute C_ALL_INPUTS_2 of mb_system_axi_gpio_0_2_axi_gpio : entity is 1;
   attribute C_ALL_OUTPUTS : integer;
   attribute C_ALL_OUTPUTS of mb_system_axi_gpio_0_2_axi_gpio : entity is 1;
   attribute C_ALL_OUTPUTS_2 : integer;
@@ -3384,7 +3384,7 @@ architecture STRUCTURE of mb_system_axi_gpio_0_2 is
   attribute C_ALL_INPUTS : integer;
   attribute C_ALL_INPUTS of U0 : label is 0;
   attribute C_ALL_INPUTS_2 : integer;
-  attribute C_ALL_INPUTS_2 of U0 : label is 0;
+  attribute C_ALL_INPUTS_2 of U0 : label is 1;
   attribute C_ALL_OUTPUTS : integer;
   attribute C_ALL_OUTPUTS of U0 : label is 1;
   attribute C_ALL_OUTPUTS_2 : integer;

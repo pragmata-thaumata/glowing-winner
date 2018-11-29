@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Nov 21 17:43:04 2018
--- Host        : qnick-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
+-- Date        : Tue Nov 27 20:10:56 2018
+-- Host        : babis-System-Product-Name running 64-bit Ubuntu 16.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /opt/Xilinx/Vivado/2018.2/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_stub.vhdl
+--               /opt/Xilinx/SDK/2018.2/0projects/customip/customip.srcs/sources_1/bd/mb_system/ip/mb_system_axi_gpio_0_2/mb_system_axi_gpio_0_2_stub.vhdl
 -- Design      : mb_system_axi_gpio_0_2
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a200tfbg676-2
